@@ -159,6 +159,7 @@ Methods that improve prompts, memory, verification, tools, or agent policies aro
 - [MemoHarness: Agent Harnesses That Learn from Experience](https://arxiv.org/abs/2607.14159) - Learns case-adaptive configurations across six harness control dimensions from execution diagnoses and a reusable experience bank. (arXiv 2026)
 - [MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution](https://arxiv.org/abs/2607.05297) - Evolves task skills in a fast loop and the meta-skills governing its Analyzer, Retriever, Allocator, Proposer, and Evolver in a slower recursive loop. (arXiv 2026)
 - [SkillOpt: Executive Strategy for Self-Evolving Agent Skills](https://arxiv.org/abs/2605.23904) - Trains a single skill document as the external state of a frozen agent, with a separate optimizer model proposing bounded edits accepted only on strict held-out validation gains. (arXiv 2026)
+- [SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness](https://arxiv.org/abs/2609.20519) - Scales harness self-improvement across many environments for rollouts and keeps the four mechanisms that survive selection, spanning action execution, context compaction, observation handling, and delegated reading, cutting recorded token traffic by 44.7-49.0% on EdgeBench. (arXiv 2026)
 
 ### Extensible Harness Substrates
 
