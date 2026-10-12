@@ -217,6 +217,7 @@ Systems that use interaction among multiple agents to improve reasoning, policie
 ### Co-Evolution
 
 - [G-Zero: Self-Play for Open-Ended Generation from Zero Data](https://arxiv.org/abs/2605.09959) - Co-evolves a Proposer that finds capability gaps and a Generator that closes them, using an intrinsic hint-conditioned predictive-shift reward instead of an external judge for open-ended generation. (arXiv 2026)
+- [Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing](https://arxiv.org/abs/2602.04837) - Treats a group of agents as the single evolutionary unit so that early exploratory diversity is shared across members instead of lost in isolated branches. (arXiv 2026)
 - [MM-Zero: Self-Evolving Multi-Model Vision Language Models From Zero Data](https://arxiv.org/abs/2603.09206) - Co-evolves Proposer, Coder, and Solver roles from one base model to render their own visual training data and improve vision-language reasoning from zero data. (arXiv 2026)
 - [R-Zero: Self-Evolving Reasoning LLM from Zero Data](https://arxiv.org/abs/2508.05004) - Co-evolves a Challenger that proposes questions at the edge of a Solver's ability with a Solver trained on majority-vote pseudo-labels, starting from a single base model and no external data. (ICLR 2026)
 - [TTCS: Test-Time Curriculum Synthesis for Self-Evolving](https://arxiv.org/abs/2601.22628) - Co-evolves a question synthesizer and a solver at test time so that self-generated curricula stabilize self-consistency-rewarded parameter updates on the test distribution. (arXiv 2026)
@@ -243,6 +244,7 @@ Agents and training loops that improve code, software-engineering performance, o
 - [Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/abs/2505.22954) - Evolves a coding agent by modifying its own code and retaining empirically validated improvements in an open-ended archive. (ICLR 2026)
 - [Mendel Gödel Machine: Recursive Self-Improving Coding Agents via Comparative Evolution](https://arxiv.org/abs/2608.07645) - Derives self-modification from an agent's archive rather than one failure at a time, adding reaction-norm mutations across multiple tasks and cross-lineage hybridization against reference agents. (arXiv 2026)
 - [A Self-Improving Coding Agent](https://arxiv.org/abs/2504.15228) - Demonstrates a coding agent that edits its own implementation and empirically improves on SWE-bench Verified. (ICLR 2025 SSI-FM Workshop)
+- [Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine](https://arxiv.org/abs/2510.21614) - Identifies a mismatch between a coding agent's own benchmark score and its metaproductivity, and steers self-modification with a descendant-aggregating Clade Meta Productivity metric. (arXiv 2025)
 
 ### Iterative Repair & Training
 
